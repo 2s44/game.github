@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>无进度条视频播放</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        
+        video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <video src="your_video.mp4" autoplay controlsList="nodownload" poster="your_poster.jpg">
+        Your browser does not support the video tag.
+    </video>
+</body>
+</html>
